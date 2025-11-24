@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "tests_run": 17,
+    "tests_passed": 15,
+    "success_rate": "88.2%"
+  },
+  "results": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Register Admin User",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Register Staff User",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Admin Login",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Staff Login",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Current User",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Create Class",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Upcoming Classes",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get All Users",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get Logs",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Send Test Reminder",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get My Classes",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Update Preferences",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Get My Timetable",
+      "success": true,
+      "details": "Status: 200"
+    },
+    {
+      "test": "Unauthorized Admin Access",
+      "success": false,
+      "details": "Status: 403, Expected: 401, Error: Not authenticated"
+    },
+    {
+      "test": "Unauthorized Staff Access",
+      "success": false,
+      "details": "Status: 403, Expected: 401, Error: Not authenticated"
+    },
+    {
+      "test": "Staff Access Admin Endpoint",
+      "success": true,
+      "details": "Status: 403"
+    }
+  ]
+}
